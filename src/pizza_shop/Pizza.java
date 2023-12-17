@@ -3,19 +3,16 @@ package pizza_shop;
 public class Pizza {
 
     String name = "Pizza";
-    String dough = "Dough";
     String sauce = "Sauce";
     String cheese = "Cheese";
 
-    public Pizza (String dough, String sauce, String cheese){
+    public Pizza (String sauce, String cheese){
         this.cheese = cheese;
-        this.dough = dough;
         this.sauce = sauce;
     }
 
     public void preparing (){
-        System.out.println("Your order is in process...");
-        System.out.print("Preparing pizza with: " +dough+", "+sauce+", "+cheese);
+        System.out.print("Your order is in process... Preparing pizza with "+sauce+", "+cheese+" and ");
     }
 
     public void backing(){
@@ -31,8 +28,8 @@ public class Pizza {
     }
 
 
-    public static String toString(String name, String dough, String sauce, String cheese){
-        return name + " with "+dough+", "+sauce+", "+cheese;
+    public String toString(){
+        return "Pizza";
     }
 
 

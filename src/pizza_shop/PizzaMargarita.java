@@ -5,13 +5,17 @@ public class PizzaMargarita extends Pizza{
     String tomatoes = "Tomatoes";
 
     public PizzaMargarita (){
-        super("dough", "sauce", "mozzarella cheese");
+        super("sauce", "mozzarella cheese");
         this.tomatoes = tomatoes;
     }
 
     public void preparing (){
         super.preparing();
-        System.out.println(", "+tomatoes );
+        System.out.println(" "+tomatoes );
+    }
+
+    public String toString (){
+        return "Pizza Margarita";
     }
 
 
