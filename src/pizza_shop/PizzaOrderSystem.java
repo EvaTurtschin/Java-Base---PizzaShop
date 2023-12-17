@@ -1,8 +1,5 @@
 package pizza_shop;
 
-
-import java.sql.Array;
-
 public class PizzaOrderSystem {
     static Pizza choosePizza (String [] orderPizzas) {
         for (int i = 0; i < orderPizzas.length-1; i++) {

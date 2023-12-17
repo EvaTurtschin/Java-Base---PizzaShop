@@ -10,11 +10,9 @@ public class Pizza {
         this.cheese = cheese;
         this.sauce = sauce;
     }
-
     public void preparing (){
         System.out.print("Your order is in process... Preparing pizza with "+sauce+", "+cheese+" and ");
     }
-
     public void backing(){
         System.out.println("Backing in progress...");
     }

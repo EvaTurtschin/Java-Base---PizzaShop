@@ -1,6 +1,5 @@
 package pizza_shop;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class OnlinePizzaShop {

@@ -10,12 +10,10 @@ public class PizzaHawaii extends  Pizza{
         this.chicken = chicken;
         this.pineapple = pineapple;
     }
-
     public void preparing (){
         super.preparing();
         System.out.println(" "+chicken+", "+pineapple );
     }
-
     public String toString(){
         return "Pizza Hawaii";
     }
